@@ -4,4 +4,4 @@
 - Atrial Myocyte Model, driven by an external stimulus
 - Atrial Myocyte Model coupled to Sinoatrial Pacemaker Cell model
 
-Developed within my Master's project for the University of Manchester
+Developed within my Master's project for the University of Manchester Physics Department
