@@ -1,4 +1,4 @@
-# A simplification of the Zhang et al. (2020) atrial myocyte model, for steady stimulus pacing.
+# A Simplification of the Zhang et al. (2020) Atrial Myocyte Model, for Steady Stimulus Pacing.
 
 ## Running Sumlations
 
