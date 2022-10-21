@@ -1,19 +1,16 @@
-Matt Hayter, University of Manchester
-05/2022
+# A Simplified Atrial Myocyte Model Electrophysiologically Coupled to a SAN Pacemaker Cell Model
 
-A simplified atrial myocyte model electrophysiologically coupled to a SAN pacemaker cell model.
+- Atrial cell: A simplified atrial cell model (Euler based, 2022) based upon the H. Zhang et al. (2020) atrial cell model.
+- SAN pacemaker cell: Restructured C++ version of Wei's SAN model (2012) based upon the S. Kharche (2011) SAN model.
 
-Atrial cell: A simplified atrial cell model (Euler based, 2022) based upon the H. Zhang et al. (2020) atrial cell model.
-SAN pacemaker cell: Restructured C++ version of Wei's SAN model (2012) based upon the S. Kharche (2011) SAN model.
-
-*****Configuring Simulations*****
+## Configuring Simulations
 
 1. Alter variables within atrial_cell_configuration.hpp and SAN_cell_configuration.hpp to desired cell properties.
 
 2. Configure experiment as a whole (coupled ODE solver timesteps, output timeteps, temperatures...) within
    simulation_configuration.hpp. Both "output_dt" and "dt" are driving factors in processing times.
 
-*****Running Sumlations*****
+## Running Sumlations
 
 1. Ensure initial cell-state variable files are present for both the atrial and SAN cells within the input folder.
 
@@ -25,7 +22,7 @@ SAN pacemaker cell: Restructured C++ version of Wei's SAN model (2012) based upo
    Some measurements will also be outputted to the terminal, which informs the user of the current beat as
    the simulation progresses.
 
-*****Other notes*****
+## Other notes
 
 - Cell parameters are defined within each cell's class declaration.
 
@@ -37,3 +34,4 @@ SAN pacemaker cell: Restructured C++ version of Wei's SAN model (2012) based upo
 
 - Program compiled and tested on Windows and Linux OS, with GNU's g++ compiler.
 
+Matt Hayter, University of Manchester
