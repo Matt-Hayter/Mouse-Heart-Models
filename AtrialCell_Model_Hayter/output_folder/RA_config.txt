@@ -1,0 +1,68 @@
+Experiment type: Steady Pacing
+
+Simulation name: RA
+Initial states file name: RA_1000_final_states.dat
+Final states file name: RA_final_states.dat
+
+Solver time step(ms): 0.001
+Output time step(ms): 0.01
+Temperature(K): 310
+
+Amplitude(mV): 10
+Duration(ms): 4
+BCL: 1000
+Frequency(Hz): 1
+Beats: 10
+
+INa Block: 1
+ICaT Block: 1
+IKur Block: 1
+Ito Block: 1
+IKr Block: 1
+IKACh Block: 1
+IKs Block: 1
+IKss Block: 1
+IK1 Block: 1
+IKCa Block: 1
+IKb Block: 1
+INCX Block: 1
+ICab Block: 1
+INab Block: 1
+INaK Block: 1
+J SERCA Block: 1
+J SR leak Block: 1
+: 0
+
+IP3_time: 0
+Dynamic IP3: off
+IP3 fixed(uM): 0.023
+IP3R effect: off
+
+CaMKII level: Wild type
+OE type: Chronic
+
+Caffeine effect: off
+
+Isoproterenol concentration: 0
+
+ACh(uM): 0
+
+Flags:
+Na Clamp: 0
+CaMKII Clamp on NaV: 0
+PLM KO: 0
+Strophanthidin: 0
+Digitalis: 0
+CaMKII-Na-Ca-CaMKII loop closed: 0
+
+Stim with K: on
+Fixed Cl: off
+Fixed Ki: off
+SERCA amp: off
+Faster RyR: off
+
+New INa: off
+New INaK: off
+
+Max m2 LCC CK: 0.1
+
