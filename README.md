@@ -1,5 +1,7 @@
 # Cellular-Level Computational Models of the Mouse Heart
 
+These complex models describe the electrophysiology of mouse cardiac cells, and simulate heart beats at the cellular level
+
 ## Monorepo containing: 
 - Atrial Myocyte Model, driven by an external stimulus
 - Atrial Myocyte Model coupled to Sinoatrial Pacemaker Cell model
